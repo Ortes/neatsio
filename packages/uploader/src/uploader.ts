@@ -46,7 +46,7 @@ export abstract class Uploader {
    *
    */
   public buildDownloadEndpoint(options: DownloadEndpointOptions): RequestHandler {
-    const handler: RequestHandler = async (req, res) => {
+    const handler = async (req: any, res: any) => {
       const key = await options.retrieveKeyCallback(req.params.id)
 
       if (!key) throw HttpError.NotFound()

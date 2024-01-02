@@ -3,7 +3,7 @@ import { RequestHandler } from 'express'
 import { HttpError } from '@owliehq/http-errors'
 
 export const authMiddleware: RequestHandler = (req, res, next): void => {
-  passport.authenticate('jwt', (err, user) => {
+  passport.authenticate('jwt', (err: any, user: any) => {
     if (err) return next(err)
 
     //

@@ -176,7 +176,7 @@ export class App {
    *
    */
   /* istanbul ignore next */
-  public async start(options: InitAppNativeOptions = {}) {
+  public async start(options: InitAppNativeOptions = {}): Promise<void> {
     const app = await this.initNativeApp(options)
 
     return new Promise((resolve, reject) => {
@@ -187,8 +187,8 @@ export class App {
         } else {
           server = http.createServer(app)
         }
-        server.listen(options?.port || 3000, (args : any) => {
-          resolve(args)
+        server.listen(options?.port || 3000, () => {
+          resolve()
         })
       } catch (err) {
         reject(err)

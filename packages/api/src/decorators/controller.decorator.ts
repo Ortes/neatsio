@@ -27,7 +27,7 @@ function generateRoutes(controller: any, controllerMetadata: any): Router {
   Object.entries(routesMetadata).forEach(([key, meta]) => {
     const currentRouteMiddlewares = (middlewares[key] || []).reverse()
 
-    const handler = asyncWrapper(meta.handler.bind(controller.instance))
+    const handler = meta.handler.bind(controller.instance)
 
     switch (meta.method) {
       case RouteMethod.GET:
