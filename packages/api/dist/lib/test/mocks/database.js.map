@@ -1,0 +1,1 @@
+{"version":3,"file":"database.js","sourceRoot":"","sources":["../../../../test/mocks/database.ts"],"names":[],"mappings":";;AAAA,+DAAgD;AAChD,4DAAoD;AACpD,gDAAwC;AAExC,MAAM,SAAS,GAAG,IAAI,gCAAS,CAAC;IAC9B,OAAO,EAAE,QAAQ;IACjB,OAAO,EAAE,UAAU,EAAE,6BAA6B;IAClD,OAAO,EAAE,KAAK;CACf,CAAC,CAAA;AAEF,SAAS,CAAC,SAAS,CAAC,CAAC,kBAAQ,EAAE,cAAI,CAAC,CAAC,CAAA;AAErC,kBAAe,SAAS,CAAA"}

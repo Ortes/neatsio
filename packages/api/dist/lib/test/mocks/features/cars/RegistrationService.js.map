@@ -1,0 +1,1 @@
+{"version":3,"file":"RegistrationService.js","sourceRoot":"","sources":["../../../../../../test/mocks/features/cars/RegistrationService.ts"],"names":[],"mappings":";;;;;;;;;AAAA,yCAAyC;AAGlC,IAAM,mBAAmB,GAAzB,MAAM,mBAAmB;IAC9B,wBAAwB;QACtB,OAAO,CAAC,WAAW,EAAE,WAAW,CAAC,CAAA;IACnC,CAAC;CACF,CAAA;AAJY,kDAAmB;8BAAnB,mBAAmB;IAD/B,IAAA,aAAO,GAAE;GACG,mBAAmB,CAI/B"}

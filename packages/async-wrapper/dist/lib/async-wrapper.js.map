@@ -1,0 +1,1 @@
+{"version":3,"file":"async-wrapper.js","sourceRoot":"","sources":["../../src/async-wrapper.ts"],"names":[],"mappings":";;;AAIO,MAAM,YAAY,GAAG,CAAC,OAA4B,EAAkB,EAAE;IAC3E,OAAO,CAAC,GAAY,EAAE,GAAa,EAAE,IAAkB,EAAE,EAAE;QACzD,OAAO,CAAC,GAAG,EAAE,GAAG,EAAE,IAAI,CAAC,CAAC,KAAK,CAAC,IAAI,CAAC,CAAA;IACrC,CAAC,CAAA;AACH,CAAC,CAAA;AAJY,QAAA,YAAY,gBAIxB"}
